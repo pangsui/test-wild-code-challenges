@@ -1,0 +1,40 @@
+body {
+  background-color: antiquewhite;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pokman-btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 1rem;
+}
+.pokman-btn:hover {
+  background: white;
+  color: black;
+  font-size: 1rem;
+}
+
+.display-pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeman-name {
+  text-transform: uppercase;
+  text-align: center;
+}
+.no-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9rem;
+}
